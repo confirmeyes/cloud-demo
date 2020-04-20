@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 
-@RequestMapping("/user")
 public interface UserApi {
 
 

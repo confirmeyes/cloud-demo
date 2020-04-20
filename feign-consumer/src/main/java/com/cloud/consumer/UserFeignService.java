@@ -11,6 +11,6 @@ import org.springframework.stereotype.Service;
  * @description .
  */
 
-@FeignClient(name = "User-Provider")
+@FeignClient(name = "User-Provider", configuration = FeignAuthConfiguration.class, fallbackFactory = WebError.class)
 public interface UserFeignService extends UserApi {
 }

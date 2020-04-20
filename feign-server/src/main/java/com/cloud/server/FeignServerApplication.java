@@ -1,24 +1,21 @@
-package com.cloud.eureka;
+package com.cloud.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 
 /**
  * @author lpx .
- * @create 2020-04-09-16:25 .
+ * @create 2020-04-18-18:20 .
  * @description .
  */
 
-
 @EnableEurekaServer
-@EnableHystrix
 @SpringBootApplication
-public class EurekaServerApplication {
+public class FeignServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaServerApplication.class, args);
+        SpringApplication.run(FeignServerApplication.class, args);
     }
 
 }

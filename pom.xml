@@ -17,6 +17,7 @@
         <module>feign-consumer</module>
         <module>feign-provider</module>
         <module>feign-api</module>
+        <module>feign-server</module>
     </modules>
 
 

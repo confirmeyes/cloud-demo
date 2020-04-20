@@ -2,10 +2,12 @@ package com.cloud;
 
 import com.cloud.api.Student;
 import com.cloud.api.UserApi;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author lpx .
@@ -16,9 +18,27 @@ import java.util.Map;
 @RestController
 public class ProviderController implements UserApi {
 
+    @Value("${server.port}")
+    String port;
+
+    private AtomicInteger count = new AtomicInteger();
+
     @Override
     public String isAlive() {
-        return "Ok!!!";
+
+       /* try {
+            System.out.println("准备睡");
+
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }*/
+       int x = 1/0;
+        int i = count.getAndIncrement();
+        System.out.println(port+ "====的第：" + i + "次调用");
+
+        return "port:" + port;
     }
 
     @Override

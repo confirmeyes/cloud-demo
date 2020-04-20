@@ -14,4 +14,5 @@ public class FeignProviderApplication {
     public static void main(String[] args) {
         SpringApplication.run(FeignProviderApplication.class, args);
     }
+    
 }
