@@ -18,6 +18,7 @@
         <module>feign-provider</module>
         <module>feign-api</module>
         <module>feign-server</module>
+        <module>zuul-test</module>
     </modules>
 
 

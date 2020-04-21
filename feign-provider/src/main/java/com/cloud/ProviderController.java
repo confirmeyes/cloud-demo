@@ -27,7 +27,7 @@ public class ProviderController implements UserApi {
     public String isAlive() {
 
        /* try {
-            System.out.println("准备睡");
+            System.out.println("sleep!!!");
 
             Thread.sleep(5000);
         } catch (InterruptedException e) {

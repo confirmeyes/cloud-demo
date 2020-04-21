@@ -8,6 +8,8 @@
     <file url="file://$PROJECT_DIR$/feign-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/feign-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-test" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
