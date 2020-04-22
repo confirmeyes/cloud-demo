@@ -19,6 +19,7 @@
         <module>feign-api</module>
         <module>feign-server</module>
         <module>zuul-test</module>
+        <module>rocket-MQtest</module>
     </modules>
 
 
@@ -39,6 +40,8 @@
         <curator-framework.version>4.0.1</curator-framework.version>
         <!-- 监听 -->
         <curator-recipes.version>4.0.1</curator-recipes.version>
+        <!-- rocketMQ-client -->
+        <rocketmq-client.version>4.7.0</rocketmq-client.version>
         <!-- https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-core -->
         <jmh-core.version>1.21</jmh-core.version>
         <!-- https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-generator-annprocess -->
