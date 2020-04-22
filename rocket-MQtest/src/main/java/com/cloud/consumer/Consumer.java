@@ -26,7 +26,7 @@ public class Consumer {
         // 每个consumer 关注一个topic
         // topic 关注的消息的地址
         // 过滤器 * 表示不过滤
-        consumer.subscribe("SingleTopic", "*");
+        consumer.subscribe("tagTopic", "TAG-A");
 
         // 设置监听机制，并回调
         consumer.registerMessageListener(new MessageListenerConcurrently() {
