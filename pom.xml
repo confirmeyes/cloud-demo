@@ -20,6 +20,7 @@
         <module>feign-server</module>
         <module>zuul-test</module>
         <module>rocket-MQtest</module>
+        <module>elasticsearch-test</module>
     </modules>
 
 
@@ -92,6 +93,8 @@
             </plugin>
         </plugins>
     </build>
+
+
 
 
 </project>
