@@ -9,17 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rocketMQ-test</artifactId>
-
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
-        <dependency>
-            <groupId>org.apache.rocketmq</groupId>
-            <artifactId>rocketmq-client</artifactId>
-            <version>4.6.0</version>
-        </dependency>
-
-    </dependencies>
+    <artifactId>config-center</artifactId>
 
 
 </project>

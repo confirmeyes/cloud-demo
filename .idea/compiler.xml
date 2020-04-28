@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-center" />
+        <module name="elasticsearch-test" />
         <module name="eureka-consumer" />
         <module name="eureka-provide" />
         <module name="eureka-server" />
@@ -14,6 +16,7 @@
         <module name="feign-provide" />
         <module name="feign-provider" />
         <module name="feign-server" />
+        <module name="rocketMQ-test" />
         <module name="zuul-test" />
       </profile>
     </annotationProcessing>
@@ -25,6 +28,8 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding UTF8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-demo" options="" />
+      <module name="config-center" options="" />
+      <module name="elasticsearch-test" options="" />
       <module name="eureka-consumer" options="" />
       <module name="eureka-provide" options="" />
       <module name="eureka-server" options="" />
@@ -32,6 +37,7 @@
       <module name="feign-consumer" options="" />
       <module name="feign-provider" options="" />
       <module name="feign-server" options="" />
+      <module name="rocketMQ-test" options="" />
       <module name="zuul-test" options="" />
     </option>
   </component>

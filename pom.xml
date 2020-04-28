@@ -21,6 +21,7 @@
         <module>zuul-test</module>
         <module>rocket-MQtest</module>
         <module>elasticsearch-test</module>
+        <module>config-center</module>
     </modules>
 
 
