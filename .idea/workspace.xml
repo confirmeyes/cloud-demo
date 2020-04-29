@@ -45,17 +45,31 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-380538186">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.142" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.33" value="1" />
@@ -64,19 +78,21 @@
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1762" />
+          <entry key="class" value="3" />
+          <entry key="java" value="1823" />
           <entry key="properties" value="483" />
           <entry key="xml" value="299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1762" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="1823" />
           <entry key="Properties" value="483" />
           <entry key="XML" value="299" />
         </counts>
@@ -84,21 +100,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="application" value="1" />
-          <entry key="class" value="76" />
+          <entry key="class" value="129" />
           <entry key="gitattributes" value="1" />
           <entry key="iml" value="2" />
-          <entry key="java" value="139" />
-          <entry key="properties" value="89" />
+          <entry key="java" value="168" />
+          <entry key="properties" value="90" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="76" />
+          <entry key="CLASS" value="129" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="139" />
+          <entry key="JAVA" value="168" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="90" />
+          <entry key="Properties" value="91" />
           <entry key="XML" value="60" />
         </counts>
       </usages-collector>
@@ -106,9 +122,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageConcurrentlyService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1978">
+              <caret line="132" column="75" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="23" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/TagConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/TransactionConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="24" column="51" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="24" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/OrderConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-647">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <folding>
+                <element signature="e#11902#11903#0" expanded="true" />
+                <element signature="e#11946#11947#0" expanded="true" />
+                <element signature="e#12007#12008#0" expanded="true" />
+                <element signature="e#12063#12064#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-center/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/OrderProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="586">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/ProviderTag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -134,6 +247,19 @@
       <find>isStopped</find>
       <find>start</find>
       <find>star</find>
+      <find>take</find>
+      <find>pullCallback</find>
+      <find>pullMessage</find>
+      <find>pullKernelImpl</find>
+      <find>dispatchToConsume</find>
+      <find>ConsumeRequest</find>
+      <find>submitConsumeRequest</find>
+      <find>executeHookBefore</find>
+      <find>submit</find>
+      <find>sub</find>
+      <find>scheduledExecutorService</find>
+      <find>consumeExecutor</find>
+      <find>consumeThreadMax</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,8 +274,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/cloud/eurekaServer/EurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-server/src/main/java/com/cloud/eurekaserver/EurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-provide/src/main/java/com/cloud/eureka/EurekaProviderApplication.java" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/cloud/eureka/EurekaConsumerApplication.java" />
@@ -199,6 +323,8 @@
         <option value="$PROJECT_DIR$/zuul-test/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/feign-consumer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rocket-MQtest/pom.xml" />
+        <option value="$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/OrderConsumer.java" />
+        <option value="$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/OrderProvider.java" />
       </list>
     </option>
   </component>
@@ -253,9 +379,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
-    <option name="y" value="82" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="41" />
+    <option name="y" value="115" />
     <option name="width" value="1699" />
     <option name="height" value="1011" />
   </component>
@@ -272,6 +398,61 @@
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="rocket-MQtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -312,10 +493,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="MQClientInstance&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance&#10;rebalanceByTopic&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.consumer.RebalanceImpl#rebalanceByTopic&#10;startScheduledTask&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance#startScheduledTask&#10;invokeOneway&#9;PSI&#9;JAVA://org.apache.rocketmq.remoting.RemotingClient#invokeOneway" />
+    <property name="SearchEverywhereHistoryKey" value="**OrderlyService &#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService&#10;MQClientInstance&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance&#10;rebalanceByTopic&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.consumer.RebalanceImpl#rebalanceByTopic&#10;startScheduledTask&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance#startScheduledTask&#10;invokeOneway&#9;PSI&#9;JAVA://org.apache.rocketmq.remoting.RemotingClient#invokeOneway" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588055086908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588152424482" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -332,11 +513,11 @@
       <recent name="com.cloud.eureka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\cloud-demo\config-center\src\main\resources" />
       <recent name="D:\ideaProjects\cloud-demo\zuul-test\src\main\resources" />
       <recent name="D:\ideaProjects\cloud-demo\feign-server\src\main\resources" />
       <recent name="D:\ideaProjects\cloud-demo\feign-consumer\src\main\resources" />
       <recent name="D:\ideaProjects\cloud-demo\feign-provider\src\main\resources" />
-      <recent name="D:\ideaProjects\cloud-demo\feign-provide\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -511,17 +692,19 @@
       <workItem from="1587872816806" duration="2350000" />
       <workItem from="1587880990082" duration="2676000" />
       <workItem from="1587949548297" duration="17114000" />
-      <workItem from="1588036533549" duration="6793000" />
+      <workItem from="1588036533549" duration="7877000" />
+      <workItem from="1588125869352" duration="19127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104501000" />
+    <option name="totallyTimeSpent" value="124712000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19247311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18494624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -531,7 +714,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7258065" visible="true" weight="0.30536914" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7258065" weight="0.32155478" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,10 +732,10 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.27903226" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.27903226" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295699" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
@@ -562,359 +745,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageConcurrentlyService.class</url>
+          <line>296</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageConcurrentlyService.class</url>
+          <line>291</line>
+          <properties class="org.apache.rocketmq.client.impl.consumer.ConsumeMessageConcurrentlyService.ConsumeRequest" method="run">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/AbstractChannel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/handler/ssl/SslContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-          <folding>
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/trace/AsyncTraceDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/trace/TraceDispatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/filter/FilterAPI.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/ServiceState.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="393" column="41" selection-start-line="393" selection-start-column="41" selection-end-line="393" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/ClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="173" column="27" lean-forward="true" selection-start-line="173" selection-start-column="27" selection-end-line="173" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-remoting/4.6.0/rocketmq-remoting-4.6.0.jar!/org/apache/rocketmq/remoting/netty/NettyClientConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/util/concurrent/DefaultEventExecutorGroup.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="270" column="29" selection-start-line="270" selection-start-column="29" selection-end-line="270" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-remoting/4.6.0/rocketmq-remoting-4.6.0.jar!/org/apache/rocketmq/remoting/netty/NettyRemotingAbstract.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="408" column="10" selection-start-line="408" selection-start-column="10" selection-end-line="408" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/ChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/io/netty/netty-all/4.1.48.Final/netty-all-4.1.48.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="907" column="17" selection-start-line="907" selection-start-column="17" selection-end-line="907" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/namesrv/TopAddressing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="47" column="70" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-remoting/4.6.0/rocketmq-remoting-4.6.0.jar!/org/apache/rocketmq/remoting/common/ServiceThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-remoting/4.6.0/rocketmq-remoting-4.6.0.jar!/org/apache/rocketmq/remoting/netty/NettyRemotingClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="167" column="38" selection-start-line="167" selection-start-column="38" selection-end-line="167" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-remoting/4.6.0/rocketmq-remoting-4.6.0.jar!/org/apache/rocketmq/remoting/RemotingService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/MQClientAPIImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="210" column="32" lean-forward="true" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/PullMessageService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="83" column="78" selection-start-line="83" selection-start-column="77" selection-end-line="83" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="438" column="34" selection-start-line="438" selection-start-column="17" selection-end-line="438" selection-end-column="34" />
-          <folding>
-            <element signature="e#7388#7389#0" expanded="true" />
-            <element signature="e#7427#7428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/ServiceThread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="55" selection-start-line="12" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/MQConsumerInner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/RebalanceService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/MQClientManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="120" selection-start-line="37" selection-start-column="105" selection-end-line="37" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/RebalancePushImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/rebalance/AllocateMessageQueueAveragely.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/AllocateMessageQueueStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/RebalanceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="286" column="51" selection-start-line="286" selection-start-column="46" selection-end-line="286" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="802" column="9" lean-forward="true" selection-start-line="802" selection-start-column="9" selection-end-line="802" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/factory/MQClientInstance.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="244" column="68" lean-forward="true" selection-start-line="244" selection-start-column="68" selection-end-line="244" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/BatchProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/ProviderTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/ProviderTagTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/SingleProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/SyncProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/TransactionMq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/producer/TransactionMQProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/AsynProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="106" column="51" lean-forward="true" selection-start-line="106" selection-start-column="41" selection-end-line="106" selection-end-column="62" />
-          <folding>
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2592">
@@ -931,6 +782,374 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-center/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/MQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/MQClientManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+          <folding>
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="97" column="25" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="333" column="16" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/factory/MQClientInstance.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="242" column="43" selection-start-line="242" selection-start-column="43" selection-end-line="242" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/PullRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/ServiceThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="330" column="16" selection-start-line="330" selection-start-column="16" selection-end-line="330" selection-end-column="16" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/PullMessageService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <element signature="e#3746#3747#0" expanded="true" />
+            <element signature="e#3809#3810#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/PullCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeReturnType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/hook/ConsumeMessageContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/hook/ConsumeMessageHook.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/trace/hook/ConsumeMessageTraceHookImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/PullAPIWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="168" column="87" lean-forward="true" selection-start-line="168" selection-start-column="87" selection-end-line="168" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/PullResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/MQClientAPIImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="577" column="17" lean-forward="true" selection-start-line="577" selection-start-column="17" selection-end-line="577" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar!/com/google/common/util/concurrent/ListeningExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/message/MessageQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1423">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeOrderlyContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ProcessQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/message/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="e#2729#2730#0" expanded="true" />
+            <element signature="e#2763#2764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/ClientConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="261" column="18" selection-start-line="261" selection-start-column="18" selection-end-line="261" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/protocol/NamespaceUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="1288" column="36" selection-start-line="1288" selection-start-column="20" selection-end-line="1288" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeOrderlyStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/MessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerOrderly.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/DefaultMQPushConsumerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="944" column="105" selection-start-line="944" selection-start-column="105" selection-end-line="944" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageOrderlyService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="151" column="112" selection-start-line="151" selection-start-column="100" selection-end-line="151" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/ThreadFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/impl/consumer/ConsumeMessageConcurrentlyService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="132" column="75" selection-start-line="132" selection-start-column="61" selection-end-line="132" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/TagConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/TransactionConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="24" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/consumer/OrderConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-647">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="e#11902#11903#0" expanded="true" />
+            <element signature="e#11946#11947#0" expanded="true" />
+            <element signature="e#12007#12008#0" expanded="true" />
+            <element signature="e#12063#12064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/ProviderTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket-MQtest/src/main/java/com/cloud/provider/OrderProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
