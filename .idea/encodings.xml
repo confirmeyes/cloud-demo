@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/elasticsearch-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-provide" charset="UTF-8" />

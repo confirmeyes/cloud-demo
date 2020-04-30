@@ -22,6 +22,7 @@
         <module>rocket-MQtest</module>
         <module>elasticsearch-test</module>
         <module>config-center</module>
+        <module>config-center-test</module>
     </modules>
 
 
