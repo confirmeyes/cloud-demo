@@ -1,3 +1,5 @@
+package com.cloud.config;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -20,7 +22,7 @@ public class configController {
     String myconfig;
 
 
-    @GetMapping
+    @GetMapping("/getConfig")
     public String getConfig() {
         return myconfig;
     }
