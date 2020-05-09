@@ -64,12 +64,13 @@
     <session id="-380538186">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.142" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.3" value="3" />
@@ -80,7 +81,7 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -136,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-center/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="575">
               <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
@@ -145,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-center-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="1100">
               <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
             </state>
           </provider>
@@ -154,7 +155,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-center-test/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="175">
               <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
@@ -172,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-center/src/main/java/com/cloud/config/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="375">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -347,9 +348,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="41" />
-    <option name="y" value="115" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="336" />
+    <option name="y" value="9" />
     <option name="width" value="1699" />
     <option name="height" value="1011" />
   </component>
@@ -360,8 +361,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -408,6 +407,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,14 +419,14 @@
     <property name="SearchEverywhereHistoryKey" value="org.apache&#9;FILE&#9;jar://D:/maven/repository/org/apache/lucene/lucene-suggest/8.4.0/lucene-suggest-8.4.0.jar!/META-INF/services/org.apache.lucene.analysis.util.TokenFilterFactory&#10;new brokerController&#9;null&#9;null&#10;topicroute&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.route.TopicRouteData&#10;topic&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.body.TopicConfigSerializeWrapper&#10;registerBroker&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.header.namesrv.RegisterBrokerRequestHeader&#10;registerbroker&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.RequestCode#UNREGISTER_BROKER&#10;brokerAddrs&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.route.BrokerData#brokerAddrs&#10;Broker&#9;PSI&#9;JAVA://org.apache.rocketmq.common.protocol.route.BrokerData&#10;**OrderlyService &#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.consumer.ConsumeMessageOrderlyService&#10;MQClientInstance&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance&#10;rebalanceByTopic&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.consumer.RebalanceImpl#rebalanceByTopic&#10;startScheduledTask&#9;PSI&#9;JAVA://org.apache.rocketmq.client.impl.factory.MQClientInstance#startScheduledTask&#10;invokeOneway&#9;PSI&#9;JAVA://org.apache.rocketmq.remoting.RemotingClient#invokeOneway" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588919491644" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588926963237" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -619,12 +620,14 @@
       <workItem from="1588125869352" duration="19127000" />
       <workItem from="1588215372466" duration="17776000" />
       <workItem from="1588729156945" duration="16699000" />
-      <workItem from="1588901661151" duration="1874000" />
+      <workItem from="1588901661151" duration="2838000" />
+      <workItem from="1588928177621" duration="655000" />
+      <workItem from="1588988427365" duration="456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161104000" />
+    <option name="totallyTimeSpent" value="163179000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,9 +639,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="345" y="42" width="1699" height="1011" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6039216" visible="true" weight="0.22688173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6039216" visible="true" weight="0.2051756" />
       <window_info id="Structure" order="1" sideWeight="0.39607844" side_tool="true" weight="0.21451613" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -648,7 +652,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5897849" visible="true" weight="0.37919462" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5897849" weight="0.37919462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,7 +670,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.29354838" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25569934" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.3295699" />
@@ -1004,13 +1008,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-center/src/main/java/com/cloud/config/ConfigApplication.java">
+    <entry file="file://$PROJECT_DIR$/config-center/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-center-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1021,23 +1029,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-center/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config-center/src/main/java/com/cloud/config/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-center-test/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config-center-test/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
+        <state relative-caret-position="175">
           <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
